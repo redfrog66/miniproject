@@ -19,6 +19,11 @@
 ## A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása
 
   A rendszer a Szoftverfejlesztési Módszertanok tárgy követelményeinek kell, hogy megfeleljen.
+Néhány általános jogi követelmény a programmal szemben:
+* Szerzői jogok: A program nem szegheti meg mások szerzői jogait, és a használt forrásoknak meg kell felelnie a szoftverlicenc feltételeinek.
+* Szabályozási követelmények: A programnak meg kell felelnie azoknak a szabályozási követelményeknek, amelyek az adott iparágban vagy régióban érvényesek.
+* Hátrányos kódolás: A programnak nem szabad hátrányosan megkülönböztetnie embereket faj, vallás, nemzetiség vagy egyéb személyes jellemzők alapján.
+* 
 (Rebeka)
 
 ## Jelenlegi üzleti folyamatok modellje
@@ -47,7 +52,10 @@ A játékos a kezdőlapon szeretné megadni a becenevét, majd kiválasztani egy
 
 ## Irányított és szabad szöveges riportok szövege
 
-
+- Mennyi időt vesz igénybe a játék folyamata?   -  5-15 perc között, szinttől függően
+- Hányszor játszható a játék?  -   Nincs limit
+- Kinek alkalmas ez a játék?  -   Nemtől, kortól függetlenül bárkinek
+(Ákos)
 
 ## Fogalomszótár
   Java  -  Java egy erősen típusos, objektumorientált programozási nyelv. A Java alkalmazások platformfüggetlenek, mivel a Java bytecode virtuális gépen (JVM) futnak, így bármilyen platformon futtathatók. Az erős közösségi támogatás és a széles körben elterjedt használata miatt a Java egy népszerű választás vállalati és webalkalmazások fejlesztéséhez.
