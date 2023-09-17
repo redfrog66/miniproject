@@ -33,6 +33,12 @@ Minden nehézségi szintnek saját adatbázisa van.
 ### Új játék
 Ha a User új játékot szeretne kezdeni, az arra szolgáló Új Játék gomb segítségével visszatérhet a kezdőlapra, ahol megadhat új felhasználónevet, választhat új nehézségi szintet.
 
+### Ranglétra
+Amikor a User befejezi a jelenlegi kört, a program kiírja neki hány lépésből találta ki a számot. Név megadása után a program elmenti egy fájlba a User nevét és azt hogy hányszor tippelt. Ezeket sorban minden játék végén beolvassa a program és megjeleníti hogy ki hogy teljesített.
+
+### Ranglétra szerkesztése
+Ha a User szeretne törölni a ranglistából arra lehetősége lesz. Viszont manuálisan hozzáadni vagy létező listaelem átnevezésére nem lesz lehetőség.
+
 ### Feladás
 A Usernek lehetősége van feladni a játékot. Ekkor a záróképernyőse lép, ahol megtudja, mely számot kellett volna eltárolnia. Feladás esetén a felhasználónév és a lépések száma nem kerül eltárolásra az adatbázisban.
 
