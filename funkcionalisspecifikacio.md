@@ -28,7 +28,7 @@ A projekt célja, hogy olyan időtöltésként szolgáljon, ami nem terheli túl
 
 ## Igényelt üzleti folyamatok modellje
 
-A játékos a kezdőlapon szeretné megadni a becenevét, majd kiválasztani egy, a hangulatához illő szintet. Ezután a szintnek megfelelő tartományon belül generálásra kerül egy szám, amit egy rublikába írás után a felhasználó megpróbálhat megtippelni. A felhasználónak igénye van arra, hogy a program irányítsa, mennyire van távol a tippelendő számtól.
+Szerettünk volna egy időtöltésre alkalmas, szórakozató minijátékot létrehozni. Mivel a játék egyszerű, ezért bármely korosztály számára megfelelő időtöltés lehet, nem igényel komplex tudást. A játékos szabadidejének mértékétől függetlenül jó választás lehet a játék. A játékmenet nem igényel különösebb odafigyelést. A játékos a kezdőlapon szeretné megadni a becenevét, majd kiválasztani egy, a hangulatához illő szintet. Ezután a szintnek megfelelő tartományon belül generálásra kerül egy szám, amit egy rublikába írás után a felhasználó megpróbálhat megtippelni. A felhasználónak igénye van arra, hogy a program irányítsa, mennyire van távol a tippelendő számtól.
 
 ## Használati esetek
 
