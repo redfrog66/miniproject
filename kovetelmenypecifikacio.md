@@ -29,11 +29,11 @@ Néhány általános jogi követelmény a programmal szemben:
 ## Jelenlegi üzleti folyamatok modellje
 
 A projekt célja, hogy olyan időtöltésként szolgáljon, ami nem terheli túl az embert a mai rohanó világban. Minden időtöltési lehetőség, játék, társasjáték nagyon komplikálttá vált az idők során. Az egyébként is rohanó nap közepén csak még nagyobb terhelés 1-1 ilyen fárasztóan komplex dologgal elütni az időt. Ezért van szükség ilyen egyszerű és alacsony figyelmet igénylő 'játékra'.
-1.0 - A program megnyitása
-1.1 - A játék elindítása => a szám legenerálása => a grafikus felület frissítése
-1.2 - A tippek beírása => a tipp a kitalálandó számhoz való viszonyítása
-1.3 - A szám kitalálása => a tippek számának kiíratása
-1.4 - A ranglétra képernyő megjelenítése => az eredmény elmentése fájlba => az Új Játék gomb megjelenítése
+* 1.0 - A program megnyitása
+* 1.1 - A játék elindítása => a szám legenerálása => a grafikus felület frissítése
+* 1.2 - A tippek beírása => a tipp a kitalálandó számhoz való viszonyítása
+* 1.3 - A szám kitalálása => a tippek számának kiíratása
+* 1.4 - A ranglétra képernyő megjelenítése => az eredmény elmentése fájlba => az Új Játék gomb megjelenítése
 (Rebeka)
 ## Igényelt üzleti folyamatok modellje
 
