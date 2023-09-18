@@ -38,6 +38,11 @@ A projekt célja, hogy olyan időtöltésként szolgáljon, ami nem terheli túl
 ## Igényelt üzleti folyamatok modellje
 
 A játékos a kezdőlapon szeretné megadni a becenevét, majd kiválasztani egy, a hangulatához illő szintet. Ezután a szintnek megfelelő tartományon belül generálásra kerül egy szám, amit egy rublikába írás után a felhasználó megpróbálhat megtippelni. A felhasználónak igénye van arra, hogy a program irányítsa, mennyire van távol a tippelendő számtól.
+* 1.0 - A program megnyitása
+* 1.1 - A játék elindítása => a szám legenerálása => a grafikus felület frissítése
+* 1.2 - A tippek beírása => a tipp a kitalálandó számhoz való viszonyítása
+* 1.3 - A szám kitalálása => a tippek számának kiíratása
+* 1.4 - A ranglétra képernyő megjelenítése => az eredmény elmentése fájlba => az Új Játék gomb megjelenítése
 (Rebeka)
 ## Követelménylista
 
