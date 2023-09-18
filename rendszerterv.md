@@ -39,6 +39,9 @@ Amikor a User befejezi a jelenlegi kört, a program kiírja neki hány lépésb�
 ### Ranglétra szerkesztése
 Ha a User szeretne törölni a ranglistából arra lehetősége lesz. Viszont manuálisan hozzáadni vagy létező listaelem átnevezésére nem lesz lehetőség.
 
+### Fájlba írás
+A játék végén a program megnyit egy fájlt amibe kiírja a nevet és tippek számát. Ebből később beolvassa ezeket a ranglétra megjelenítéséhez.
+
 ### Feladás
 A Usernek lehetősége van feladni a játékot. Ekkor a záróképernyőse lép, ahol megtudja, mely számot kellett volna eltárolnia. Feladás esetén a felhasználónév és a lépések száma nem kerül eltárolásra az adatbázisban.
 
