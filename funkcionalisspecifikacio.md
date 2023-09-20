@@ -57,3 +57,12 @@ Az első szereplő maga a futó alkalmazás. Megjelenik a rublika, amit a játé
 Java  -  Java egy erősen típusos, objektumorientált programozási nyelv. A Java alkalmazások platformfüggetlenek, mivel a Java bytecode virtuális gépen (JVM) futnak, így bármilyen platformon futtathatók. Az erős közösségi támogatás és a széles körben elterjedt használata miatt a Java egy népszerű választás vállalati és webalkalmazások fejlesztéséhez.
   
 Javafx  -  JavaFX egy Java platformon futó modern grafikus felhasználói felület (GUI) keretrendszer. Ez lehetővé teszi a fejlesztők számára, hogy könnyedén építsenek interaktív és esztétikus felhasználói felületeket Java alkalmazásaikhoz.
+
+## Pozitív felhasználói élmény biztosítása
+- Felhasználóbarát GUI:
+      - A grafika felhasználói felületnek könnyen használhatónak kell lennie
+      - Egyértelműség: a GUI-nak egyértelműnek kell lennie a félreértés elkerülése érdekében
+      - Ergonómikus kialakítás: a felhasználói felületnek olvashatónak, könnyen átláthatónak kell lennie felhasználói eszköztől függetlenül
+  - Reszponzív, mobil kialakítás:
+      - Fontos, hogy okostelefonokon, tableteken kényelmesen és jól használhatóan jelenjen meg a weboldal
+      - Gyors letöltődési sebesség
