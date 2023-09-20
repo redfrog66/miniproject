@@ -72,3 +72,13 @@ A játékos a kezdőlapon szeretné megadni a becenevét, majd kiválasztani egy
   
   Javafx  -  JavaFX egy Java platformon futó modern grafikus felhasználói felület (GUI) keretrendszer. Ez lehetővé teszi a fejlesztők számára, hogy könnyedén építsenek interaktív és esztétikus felhasználói felületeket Java alkalmazásaikhoz.
 (Ákos)
+
+## Pozitív felhasználói élmény biztosítása
+- Felhasználóbarát GUI:
+      - A grafika felhasználói felületnek könnyen használhatónak kell lennie
+      - Egyértelműség: a GUI-nak egyértelműnek kell lennie a félreértés elkerülése érdekében
+      - Ergonómikus kialakítás: a felhasználói felületnek olvashatónak, könnyen átláthatónak kell lennie felhasználói eszköztől függetlenül
+  - Reszponzív, mobil kialakítás:
+      - Fontos, hogy okostelefonokon, tableteken kényelmesen és jól használhatóan jelenjen meg a weboldal
+      - Gyors letöltődési sebesség
+(Ádám)
