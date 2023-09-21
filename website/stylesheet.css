@@ -1,0 +1,17 @@
+.background{
+    background-color: #B9EDDD;
+    height: 100vh;
+}
+#title{
+    text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    font-size: 10vh;
+    color: #E55604;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0.4vh 0.2vw #ef9a68;
+}
+.btn-custom{
+    background-color: #569DAA;
+}
