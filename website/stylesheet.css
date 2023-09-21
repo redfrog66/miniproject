@@ -156,6 +156,7 @@ input[type="text"]{
     border-radius: 10px;
     border: 2px solid #202020;
     font-size: 28px;
+    outline: none;
 }
 
 button{
@@ -174,4 +175,5 @@ button{
 p{
     font-weight: 400;
 }
+
 
