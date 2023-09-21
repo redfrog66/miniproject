@@ -24,7 +24,7 @@
     background-color: #569DAA;
 }
 
-.container{
+.hatter{
     position: absolute;
     width: 50%;
     min-width: 580px;
@@ -68,3 +68,4 @@ button{
 p{
     font-weight: 400;
 }
+
