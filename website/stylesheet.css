@@ -3,6 +3,7 @@ body{
     background-size: cover;
     background-image: url( 'background.svg' );
 }
+
 #title{
     text-align: center;
     padding-top: 5vh;
@@ -40,24 +41,32 @@ body{
     transition: all .2s ease-in;
 }
 
-.hatter{
+.custom-container{
     position: absolute;
     width: 50%;
     min-width: 580px;
     transform: translate(-50%,-50%);
     top: 50%;
     left: 50%;
-    background-color: #ffffff;
+    background-color: #DDD8C4;
     padding: 50px 10px;
-    border-radius: 5px;
+    border-radius: 22px;
     display: grid;
     justify-items: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 3px solid black;
+    box-shadow: 2px 2px 1px  black;
 }
+
+.center{
+    text-align: center;
+}
+
 h3{
     font-size: 16px;
     font-weight: 600;
 }
+
 input[type="text"]{
     width: 90px;
     font-weight: 600;
@@ -69,6 +78,7 @@ input[type="text"]{
     border: 2px solid #202020;
     font-size: 28px;
 }
+
 button{
     width: 160px;
     padding: 15px 0;
@@ -81,6 +91,7 @@ button{
     margin-bottom: 30px;
     outline: none;
 }
+
 p{
     font-weight: 400;
 }
