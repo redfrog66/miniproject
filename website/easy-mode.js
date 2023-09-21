@@ -26,3 +26,9 @@ function play(){
             msg3.textContent = "Korábban tippelt számok " +
             guessed_nums;
         }
+       else if(user_guess > answer){                                   //játékos informálása magas tippről
+            msg1.textContent = "Túl magas.";
+            msg2.textContent = "Tippek száma: " + no_of_guesses;
+            msg3.textContent = "Korábban tippelt számok " +
+            guessed_nums;
+        }
