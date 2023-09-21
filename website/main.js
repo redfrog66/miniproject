@@ -2,5 +2,9 @@
 let starter = document.getElementById("starter");
 starter.onclick = function () {
     window.open("./game.html", "_self")
-    
 }
+
+function redirectToPage() {
+    window.location.href = "./easy.html";
+}
+
