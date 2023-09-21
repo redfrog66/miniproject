@@ -52,6 +52,14 @@ A start gomb megnyomása után várja, hogy átváltson a képernyő, de hopp! H
 A start gomb végre engedte, hogy továbblépjen, és pár pillanaton belül fel is szólítja az üzenet, hogy tippeljen 100 - 100 000 között. Vad tippje 600, és a program válaszol: Túl kicsit tippelt. Következő tippje az 1200, mánmeg túl nagyot tippelt. Meglövi a 800-at, valahol középen, a program válasza pedig az, hogy kicsit kisebb a tippje, mint a kitalálandó szám. User sejti, hogy nagyon közel lehet, így egyesével tippelget, míg be nem írja a 804-et. Ekkor a játék véget ér és megdicséri: Eltalálta a számot!
 Büszke magára, ugyanis megjelenik a ranglista, rajta a felhasználónevével és a lépések számával. Örömködik, hogy ilyen hamar eltalálta, ugyanis belefér az idejébe még egy kör, így lenyomja az Új játék gombot.
 
+### Felhasználói hozzáférhetőség
+
+A fejlesztés során fontos szempont, hogy valóban mindenki számára használható legyen a játék. Ennek érdekében különös figyelmet fordítunk a felhasználói felület megjelenítésére. Első sorban a könnyenkezelhetőség a feladatunk, szeretnénk, hogy a felhasználó elé csak olyan tartalom kerüljön, ami számára releváns. Félrevezető gombok és ábrák nélkül fogjuk kivitelezni a megvalósítást, így megmarad egyszerű időtöltésnek, nem túlterhelő és/vagy figyelmet elterelő
+
+Fizikai/érzékszervi korlátokkal rendelkező felhasználóink számára is akadálymentesítjük a felületet. Szemkímélő színpalettával dolgozunk, és terv szerint lehetőséget fogunk biztosítani a sötét/világos témák közötti váltásra. A villódzásmentesség egy olyan fontos tényező, melyet gyakran nem vesznek kellően számításba az interneten. Mi szeretnénk erre is hangsúlyt fektetni, így hanyagoljuk az olyaféle animációkat, melyek meghibásodás esetén villódzó képet okoznának.
+
+Ezáltal az általunk létrehozott játék ezen szempontokból nem hátráltat senkit, nem limitálja részvételüket.
+
 # Időpont:
 A Miniprojekt elkészülési határideje az oktató által megszabott határidő. 
 
