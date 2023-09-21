@@ -19,3 +19,10 @@ function play(){
     else{
         guessed_nums.push(user_guess);
         no_of_guesses+= 1;                           
+
+        if(user_guess < answer){                                        //játékos informálása alacsony tippről
+            msg1.textContent = "Túl alacsony.";
+            msg2.textContent = "Tippek száma: " + no_of_guesses;
+            msg3.textContent = "Korábban tippelt számok " +
+            guessed_nums;
+        }
