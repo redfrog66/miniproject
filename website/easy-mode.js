@@ -32,3 +32,11 @@ function play(){
             msg3.textContent = "Korábban tippelt számok " +
             guessed_nums;
         }
+       else if(user_guess == answer){                                  //játékos informálása megfelelő tippről, 
+            msg1.textContent = "Nyertél!";
+            msg2.textContent = "A szám " + answer + " volt.";
+            msg3.textContent =  no_of_guesses + " tipp által találtad ki.";
+            document.getElementById("my_btn").disabled = true;          //játék vége
+        }
+    }
+}
