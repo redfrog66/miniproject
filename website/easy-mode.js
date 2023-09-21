@@ -25,12 +25,9 @@ switch(difficulty){
         var answer = Math.floor(Math.random()*100) + 1;
         console.log(answer);
         document.getElementById("between").innerHTML="Gondoltam egy számra 1 és 100 között, ki tudod találni?";
-        break;
-    default:
-        var answer=0;
-        console.log(difficulty+"teszt"+answer);
         max=100;
         break;
+    
 }
 
 //tippek és tippek számának tárolása
