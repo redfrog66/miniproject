@@ -18,7 +18,7 @@
     height: 20vh;
     font-size: 10vh;
     color: #f5deb3;
-    text-shadow: 0.4vh 0.2vw #f9ebd1;
+    text-shadow: 0.2vh 0.1vw #f9ebd1;
 }
 .btn-custom:hover{
     background-color: #569DAA;
