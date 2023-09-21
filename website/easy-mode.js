@@ -1,11 +1,38 @@
+
 // KÖNNYŰ JÁTÉK
 // 3 üzenet(nagyobb vagy kisebb, tippek száma, korábbi tippek)
 var msg1 = document.getElementById("message1");
 var msg2 = document.getElementById("message2");
 var msg3 = document.getElementById("message3");
 
-// véletlen szám generálása 1 és 10 között
-var answer = Math.floor(Math.random()*10) + 1;
+// véletlen szám generálása 1 és 10/50/100 között
+let max;
+difficulty=localStorage.getItem("localDiff");
+switch(difficulty){
+    case 'easy':
+        var answer = Math.floor(Math.random()*10) + 1;
+        console.log(answer);
+        document.getElementById("between").innerHTML="Gondoltam egy számra 1 és 10 között, ki tudod találni?";
+        max=10;
+        break;
+    case 'medium':
+        var answer = Math.floor(Math.random()*50) + 1;
+        console.log(answer);
+        document.getElementById("between").innerHTML="Gondoltam egy számra 1 és 50 között, ki tudod találni?";
+        max=50;
+        break;
+    case 'hard':
+        var answer = Math.floor(Math.random()*100) + 1;
+        console.log(answer);
+        document.getElementById("between").innerHTML="Gondoltam egy számra 1 és 100 között, ki tudod találni?";
+        break;
+    default:
+        var answer=0;
+        console.log(difficulty+"teszt"+answer);
+        max=100;
+        break;
+}
+
 //tippek és tippek számának tárolása
 var guessed_nums = [];
 var no_of_guesses = 0;
@@ -13,8 +40,8 @@ var no_of_guesses = 0;
 //maga a játékmenet
 function play(){
     var user_guess = document.getElementById("guess").value;            //játékos tippjének beolvasása
-    if(user_guess < 1 || user_guess > 10){                             //játékos figyelmeztetése, ha az adott intervallumon kívül tippel
-        alert("Kérlek 1-től 10-ig tippelj.");
+    if(user_guess < 1 || user_guess > max){                             //játékos figyelmeztetése, ha az adott intervallumon kívül tippel
+        alert("Kérlek 1-től "+max+"-ig tippelj.");
     }
     else{
         guessed_nums.push(user_guess);
