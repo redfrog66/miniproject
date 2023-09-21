@@ -9,3 +9,13 @@ var answer = Math.floor(Math.random()*10) + 1;
 //tippek és tippek számának tárolása
 var guessed_nums = [];
 var no_of_guesses = 0;
+
+//maga a játékmenet
+function play(){
+    var user_guess = document.getElementById("guess").value;            //játékos tippjének beolvasása
+    if(user_guess < 1 || user_guess > 10){                             //játékos figyelmeztetése, ha az adott intervallumon kívül tippel
+        alert("Kérlek 1-től 10-ig tippelj.");
+    }
+    else{
+        guessed_nums.push(user_guess);
+        no_of_guesses+= 1;                           
