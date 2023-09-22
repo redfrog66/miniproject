@@ -175,5 +175,8 @@ button{
 p{
     font-weight: 400;
 }
+#scorescreen{
+  visibility: hidden;
+}
 
 

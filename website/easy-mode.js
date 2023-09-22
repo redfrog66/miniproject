@@ -60,7 +60,8 @@ function play(){
             msg1.textContent = "Nyertél!";
             msg2.textContent = "A szám " + answer + " volt.";
             msg3.textContent =  no_of_guesses + " tipp által találtad ki.";
-            document.getElementById("my_btn").disabled = true;          //játék vége
+            document.getElementById("my_btn").disabled = true;
+            document.getElementById("scorescreen").style.visibility="visible";      //játék vége
         }
     }
 }
