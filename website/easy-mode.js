@@ -30,6 +30,8 @@ switch(difficulty){
     
 }
 
+
+
 //tippek és tippek számának tárolása
 var guessed_nums = [];
 var no_of_guesses = 0;
@@ -60,8 +62,11 @@ function play(){
             msg1.textContent = "Nyertél!";
             msg2.textContent = "A szám " + answer + " volt.";
             msg3.textContent =  no_of_guesses + " tipp által találtad ki.";
+            localStorage.setItem("localGuess", no_of_guesses);
             document.getElementById("my_btn").disabled = true;
-            document.getElementById("scorescreen").style.visibility="visible";      //játék vége
+            document.getElementById("scorescreen").style.visibility="visible";
+            
+            //játék vége
         }
     }
 }

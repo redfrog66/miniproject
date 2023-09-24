@@ -45,4 +45,17 @@ if (currentTheme) {
     }
 }
 
+function setName() {
+    
+    let name = prompt("Add meg a neved:", "Név");
+    if (name == null || name == "") {
+        name="Noname";
+        localStorage.setItem("localName", name);
+        console.log(name);
+    }else {
+        localStorage.setItem("localName", name);
+        console.log(name);
+    }
+  }
+
 
