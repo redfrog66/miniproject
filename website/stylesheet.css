@@ -3,6 +3,7 @@
   --title-shadow: #275E6F;
   --container: #DDD8C4;
   --guess: #C2D5C5;
+  --text-color: black;
   --background-image: url( 'background.svg' );
 }
 
@@ -11,6 +12,7 @@
   --title-shadow: #275E6F;
   --container: #50808E ;
   --guess: #52726c;
+  --text-color: #DDD8C4;
   --background-image: url( 'dark-theme-background.svg' );
 }
 
@@ -149,6 +151,7 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     border: 3px solid black;
     box-shadow: 2px 2px 1px  black;
+    color: var(--text-color)
 }
 
 .center{
