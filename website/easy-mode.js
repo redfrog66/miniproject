@@ -65,6 +65,15 @@ function play(){
         }
     }
 }
+
+function give_up() {
+    document.getElementById("my_btn").disabled = true;
+    msg1.textContent = "A helyes szám " + answer + " volt.";
+    msg2.textContent = " ";
+    msg3.textContent = " ";
+    
+}
+
 function convert() {
            
     // Sample JSON data

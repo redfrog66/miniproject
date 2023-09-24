@@ -31,7 +31,7 @@
                         </button>
                     </td>
                     <td>
-                        <button class="btn btn-custom-guess text-center">
+                        <button onclick="give_up()" class="btn btn-custom-guess text-center" id="my_btn">
                             <span class="span">🏳️</span>
                         </button>
                     </td>
@@ -43,6 +43,9 @@
             <p id="message3"></p>
             <button onclick="redirectToPage('./scoreboard.html')" class="btn btn-custom-guess text-center" id="scorescreen">
                 <span class="span">🢂</span>
+            </button>
+            <button onclick="redirectToPage('./index.html')" class="btn btn-custom-guess text-center" id="playagain">
+                <span class="span">🔄</span>
             </button>
         </div>
     </div>
