@@ -29,11 +29,13 @@ Egyéb tesztelésre használt eszközök:
 Egyéb tesztelésre használt eszközök:
 | Processzor | RAM  | Életkor | Állapot  |  Előfordult hiba  |
 |------------|------|---------|----------|-----|
-| AMD Ryzen 5   | 8GB | 1 év    | Kiváló    |    |
+| AMD Ryzen 5   | 8GB | 1 év    | Kiváló    |  Nem  |
 |  Intel Core i5  | 8GB  | 6 év    | Kielégítő  |  Nem  |
 |  AMD Ryzen 5  | 31GB  | <1 év    | Kiváló  |  Nem  |
 
 ### Konklúzió
+
+A megírt funkcióink gond nélkül futottak az összes eszközön. Ugyanolyan módon működtek az erősebb/fiatalabb eszközökön, mint a gyengébb/idősebbeken. Mondhatjuk, hogy a különböző erőforrás nem befolyásolta a program működését.
 
 ## 2. Felület tesztelése
 Itt a fő szempont, hogy a felületen minden szükséges elem megtalálható, mindhez hozzá van kötve a megfelelő funkció. A kód tisztítása is itt történik, a funkcióval nem rendelkező elemek eltávolításra kerülnek.
@@ -74,11 +76,13 @@ Egyéb elemek:
 |------------|------|---------|----------|----|
 | AMD Ryzen 7   | 16GB | 2 év    | Kiváló    |  Nem  |
 | AMD Ryzen 5  | 8GB  | 3 év    | Elégséges  |  Nem  |
-| AMD Ryzen 5   | 8GB | 1 év    | Kiváló    |    |
+| AMD Ryzen 5   | 8GB | 1 év    | Kiváló    | Nem   |
 |  Intel Core i5  | 8GB  | 6 év    | Kielégítő  |  Nem  |
 |  AMD Ryzen 5  | 31GB  | <1 év    | Kiváló  |  Nem  |
 
 ### Konklúzió
+
+A kívánt elemek minden eszközön megfelelően megjelentek, funkcióikat ellátták. A GUI elemek megfelelően lettek összekötve az őket mozgató függvényekkel. A működés gördülékeny, ütközésmentes. A kód letisztult, felesleges funkcióktól tiszta.
 
 ## 3. Felület kinézetének tesztelése
 Célunk, hogy fizikai/érzékszervi korlátokkal rendelkező felhasználóink számára is akadálymentesítsük a felületet. Ennek érdekében külön figyelmet fordítunk a felület kinézetének ellenőrzésére. A színek kontrasztossága, a feliratok olvashatósága a szempont, így különböző monitorokon szeretnénk látni a futó kódot. Ezen tesztelési résznél ellenőrizzük, hogy van-e olyan dizájn-elem, amely nem rendelkezik saját funkcióval, de a felhasználó irányítására szolgál, és valamiféle hibát eredményezhet. Például egy felirat helytelen animálása vezethet villódzáshoz.
@@ -111,6 +115,8 @@ Külön felület kinézeti tesztet kap a sötét és a világos téma, így igé
 
 ### Konklúzió
 
+A felület kinézetével szembeni elvárásainkat elértük. Letisztult, könnyen olvasható megjelenést sikerült elérnünk. 
+
 ## 4. Teljesítményteszt
 Gyorsan működő program az elvárásunk, ezért fontos, hogy ellenőrizzük a sebességet. A tesztelés során A működőképesség tesztelésénél sorolt eszközökön megmérjük, mennyi időt vesz igénybe az első futás.
 
@@ -120,11 +126,13 @@ Gyorsan működő program az elvárásunk, ezért fontos, hogy ellenőrizzük a 
 |------------|------|---------|----------|----|
 | AMD Ryzen 7   | 16GB | 2 év    | Kiváló    |  < 1 ms  |
 | AMD Ryzen 5  | 8GB  | 3 év    | Elégséges  |  < 1 ms  |
-| AMD Ryzen 5   | 8GB | 1 év    | Kiváló    |    |
+| AMD Ryzen 5   | 8GB | 1 év    | Kiváló    |  < 1 ms  |
 |  Intel Core i5  | 8GB  | 6 év    | Kielégítő  |  < 1 ms  |
 |  AMD Ryzen 5  | 31GB  | <1 év    | Kiváló  |  < 1 ms  |
 
 ### Konklúzió
+
+Erőforrástól függetlenül gyorsan futó kódot sikerült létrehoznunk. Emberi felfogás számára elenyésző a futási idők közötti különbség.
 
 ## 5. Biztonsági teszt
 Egy nagyszabású program esetében fontos, hogy alapos biztonsági teszteken essen át. Ellenőrizendő, hogy a felhasználók adatai megfelelően védettek-e. Esetünkben a felhasználó nem tud olyan adatot megadni, amely önmagában elég lenne ahhoz, hogy bárminem visszaélés áldozata legyen. Ebből kifolyólag nem érdemes nagy figyelmet fordítanunk a biztonsági tesztre. Nem kerül érzékeny adat a rendszerbe, a felhasználó aggodalom nélkül élvezheti a játékot.
@@ -143,7 +151,7 @@ A programot több böngészőben is tesztelni fogjuk, mindegyik eszközön.
 A tesztek hibára futottak a következő böngészőkben:
 | Processzor | RAM  | Életkor | Állapot  | Chrome | Firefox | Edge   |
 |------------|------|---------|----------|--------|---------|--------|
-| AMD Ryzen 5   | 8GB | 1 év    | Kiváló    |   |    |    |
+| AMD Ryzen 5   | 8GB | 1 év    | Kiváló    | Nem  |  Nem  |    |
 |  Intel Core i5  | 8GB  | 6 év    | Kielégítő  | Nem   |    |  Nem  |
 |  AMD Ryzen 5  | 31GB  | <1 év    | Kiváló  | Nem  |    |    |
 | AMD Ryzen 7   | 16GB | 2 év    | Kiváló    |   |  Nem  |   Nem |
@@ -151,9 +159,15 @@ A tesztek hibára futottak a következő böngészőkben:
 
 ### Konklúzió
 
+A program bömgésző-független.
+
 ## 7. Dokumentáció ellenőrzés
 A fejlesztés és tesztelés végén újból végigolvassuk a dokumentációt. Szükség esetén frissítjük és/vagy kiegészítjük. Meggyőződünk a dokumentációk naprakészségéről, jólformázottságáról és könnyű értelmezhetőségéről.
 
 ### Eredmények
 
+A dokumentációk nem szorulnak javításra.
+
 ### Konklúzió
+
+A dokumentáció naprakész.
