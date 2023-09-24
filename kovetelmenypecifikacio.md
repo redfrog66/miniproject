@@ -12,9 +12,9 @@
 ## Vágyálom rendszer leírása
 
   Kezdetben a játékos megadhat magának egy becenevet, ami majd a ranglistában való tároláshoz szükséges. A program a nehézség kiválasztása és a start gomb megnyomása után generál egy random számot a kiválasztott nehézség alapján lévő számtartományban. A játékos feladata, hogy kitalálja ezt a számot. A felugró ablakba beírhatja a tippelt számot, majd a program válaszként megadja, hogy a kisebb, vagy nagyobb-e, mint a kitalálandó szám. A program specifikusabb választ is képes megadni, például kicsit kisebb a szám, vagy sokkal nagyobb a szám. A játékos rendelkezésére áll több tippelési lehetőség is. A játék végkimenetele kétféle lehet, van egy feladom opció, ami kiírja a megfejtendő számot, vagy ha a játékos helyesen tippel, akkor felugrik egy győztes ablak, ami kiírja, hogy hány lépésben tudta az illető kitalálni a számot. Ezt követően a játékos lépésszáma a megadott becenévvel együtt tárolódik a ranglistában, amit szintén megtekinthetnek a felhasználók. Opció új játék kezdése, vagy visszalépés a főoldalra, ahol új becenév adható meg játékos változás esetén.
-  
-  A program fejlesztésére java nyelvet választottunk, ami elősegíti a könnyű mozgatást akár több platform között is. 
-(Fruzsi)
+  (Fruzsi)
+  A program fejlesztésére JavaScript nyelvet választottunk, ami elősegíti a könnyű mozgatást akár több platform között is. A Bootstrap segít a fejlesztőknek gyorsabban és egyszerűbben létrehozni konzisztens, esztétikus és funkcionális webes felületeket.
+
 
 ## A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása
 
