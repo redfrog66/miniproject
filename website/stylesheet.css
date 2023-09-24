@@ -4,6 +4,7 @@
   --container: #DDD8C4;
   --guess: #C2D5C5;
   --text-color: black;
+  --scoreboard: #DDD8C4;
   --background-image: url( 'background.svg' );
 }
 
@@ -13,6 +14,7 @@
   --container: #50808E ;
   --guess: #52726c;
   --text-color: #DDD8C4;
+  --scoreboard: #50808E;
   --background-image: url( 'dark-theme-background.svg' );
 }
 
@@ -347,21 +349,21 @@ table:not(.button-table) {
   
 }
 
-tr:not(button-tr) {
+tr:not(.button-tr) {
 }
 
-td:not(button-td) {
+td:not(.button-td) {
   padding-left: 50px;
   padding-right: 50px;
   text-align: center;
 }
 
-tr:not(button-tr) {
+tr:not(.button-tr) {
   text-align: center;
   justify-content: center;
 }
 
-th:not(button-th) {
+th:not(.button-th) {
   padding-left: 50px;
   padding-right: 50px;
   text-align: center;
