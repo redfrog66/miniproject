@@ -71,7 +71,7 @@ function give_up() {
     msg1.textContent = "A helyes szám " + answer + " volt.";
     msg2.textContent = " ";
     msg3.textContent = " ";
-    
+    document.getElementById("playagain").style.visibility="visible"; 
 }
 
 function convert() {
