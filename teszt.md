@@ -99,6 +99,16 @@ Külön felület kinézeti tesztet kap a sötét és a világos téma, így igé
 
 ### Eredmények
 
+## Képernyőképek a működésről
+
+![kezdo_kepernyo](teszt_kepernyokepek/kezdo_kepernyo.png)
+![nehezseg_valaszto](teszt_kepernyokepek/nehezseg_valaszto.png)
+![jatek](teszt_kepernyokepek/jatek.png)
+![gyozelem](teszt_kepernyokepek/gyozelem.png)
+![rangletra](teszt_kepernyokepek/rangletra.png)
+![feladas](teszt_kepernyokepek/feladas.png)
+![sotetmod](teszt_kepernyokepek/sotetmod.png)
+
 ### Konklúzió
 
 ## 4. Teljesítményteszt
