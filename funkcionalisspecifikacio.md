@@ -54,9 +54,13 @@ Az első szereplő maga a futó alkalmazás. Megjelenik a rublika, amit a játé
 
 ## Fogalomszótár
 
-Java  -  Java egy erősen típusos, objektumorientált programozási nyelv. A Java alkalmazások platformfüggetlenek, mivel a Java bytecode virtuális gépen (JVM) futnak, így bármilyen platformon futtathatók. Az erős közösségi támogatás és a széles körben elterjedt használata miatt a Java egy népszerű választás vállalati és webalkalmazások fejlesztéséhez.
-  
-Javafx  -  JavaFX egy Java platformon futó modern grafikus felhasználói felület (GUI) keretrendszer. Ez lehetővé teszi a fejlesztők számára, hogy könnyedén építsenek interaktív és esztétikus felhasználói felületeket Java alkalmazásaikhoz.
+JavaScript - A JavaScript egy szkriptnyelv, amit webfejlesztésre használnak. Dinamikus típusú és eseményvezérelt, lehetővé teszi az interaktív weboldalak készítését. A böngészőkben fut, és képes a DOM manipulálására, valamint aszinkron műveletek kezelésére is.
+
+HTML - Az HTML (HyperText Markup Language) egy szövegalapú kódolási nyelv, amit a weboldalak struktúrájának és tartalmának leírására használnak. Az HTML elemei segítségével lehetőség van címsorok, szövegek, képek, linkek, táblázatok, űrlapok és más tartalmi elemek megjelenítésére a weboldalon. A böngészők HTML kódot értelmeznek és megjelenítik a felhasználóknak, így lehetővé téve a weboldalak böngészését és interakcióját. Az HTML a webfejlesztés alapvető építőköve, és más technológiákkal, például CSS (Cascading Style Sheets) és JavaScripttel együtt használják a modern weboldalak készítéséhez.
+
+CSS - A CSS (Cascading Style Sheets) egy stílusleíró nyelv, amit a weboldalak megjelenítésének formázására és dizájnjának meghatározására használnak. 
+
+Bootstrap - A Bootstrap egy nyílt forráskódú, előre elkészített webfejlesztési keretrendszer, amely stílusokat, komponenseket és JavaScript funkciókat kínál a reszponzív és modern weboldalak és webalkalmazások készítéséhez. 
 
 ## Pozitív felhasználói élmény biztosítása
 - Felhasználóbarát GUI:
