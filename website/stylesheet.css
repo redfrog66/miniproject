@@ -349,9 +349,6 @@ table:not(.button-table) {
   
 }
 
-tr:not(.button-tr) {
-}
-
 td:not(.button-td) {
   padding-left: 50px;
   padding-right: 50px;
