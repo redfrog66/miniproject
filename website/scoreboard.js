@@ -2,24 +2,17 @@ function convert() {
            
     // Sample JSON data
     
-    let jsonData = [
+   let jsonData = 
         {
             name:localStorage.getItem("localName"),
             difficulty:localStorage.getItem("localDiff"),
             tippek:localStorage.getItem("localGuess")
         }
-     ];
-     let jsonD = [
-     ];
-    if(localStorage.getItem("localJson")==null){
-     
-    }else{
-        for(let i=0;i<jsonD.length;i++){
-            jsonData.push(jsonD[i]);
-         }
-    }
-    jsonD=jsonData;
-    localStorage.setItem("localJson",jsonD);
+     ;
+       
+saveResult(jsonData);
+jsonData=JSON.parse(localStorage.getItem('results'));
+
     
      
 
@@ -64,3 +57,20 @@ function convert() {
     });
     container.appendChild(table) // Append the table to the container element
  }
+
+ // itt a paraméterben van a legutobbi eredmeny amit menteni akarunk
+function saveResult(result) {
+    // létezik-e már a mentések listája
+    if (!localStorage.getItem('results')) {
+        // létrehozzuk
+        localStorage.setItem('results', JSON.stringify([result]));
+    } else {
+        // lekérjuk
+        const results = JSON.parse(localStorage.getItem('results'));
+        // hozzaadjuk
+        results.push(result);
+        // kimentjuk
+        localStorage.setItem('results', JSON.stringify(results));
+    }
+    
+}
