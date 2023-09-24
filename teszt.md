@@ -23,7 +23,7 @@ Egyéb tesztelésre használt eszközök:
 ### Eredmények
 | Processzor | RAM  | Életkor | Állapot  |  Előfordult hiba  |
 |------------|------|---------|----------|----|
-| AMD Ryzen 7   | 16GB | 2 év    | Kiváló    |    |
+| AMD Ryzen 7   | 16GB | 2 év    | Kiváló    |  Nem  |
 | AMD Ryzen 5  | 8GB  | 3 év    | Elégséges  |    |
 
 Egyéb tesztelésre használt eszközök:
@@ -72,7 +72,7 @@ Egyéb elemek:
 ### Eredmények
 | Processzor | RAM  | Életkor | Állapot  |  Előfordult hiba  |
 |------------|------|---------|----------|----|
-| AMD Ryzen 7   | 16GB | 2 év    | Kiváló    |    |
+| AMD Ryzen 7   | 16GB | 2 év    | Kiváló    |  Teszt  |
 | AMD Ryzen 5  | 8GB  | 3 év    | Elégséges  |    |
 | AMD Ryzen 5   | 8GB | 1 év    | Kiváló    |    |
 |  Intel Core i5  | 8GB  | 6 év    | Kielégítő  |    |
