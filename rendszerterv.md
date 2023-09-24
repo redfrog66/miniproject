@@ -28,8 +28,6 @@ A következő GUI felületen tud tippet beírni a felhasználó. Egy metódus el
 ### A játék vége
 Ha a User sikeresen beírta az arra szolgáló rublikába a kitalálandó számot, a játék véget ér. A lépései számát, illetve az elején eltárolt felhasználónevet egy adatbázishoz hozzáfűzi, majd belőle meghívja a top 10-es listát, lépések száma alapján.
 
-Minden nehézségi szintnek saját adatbázisa van.
-
 ### Új játék
 Ha a User új játékot szeretne kezdeni, az arra szolgáló Új Játék gomb segítségével visszatérhet a kezdőlapra, ahol megadhat új felhasználónevet, választhat új nehézségi szintet.
 
