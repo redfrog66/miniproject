@@ -38,7 +38,7 @@ FELHASZNÁLÓ: A FELHASZNÁLÓ az alkalmazás alapvető funkcióit tudja haszná
 
 ## Megfeleltetés, hogyan fedik le a használati esetek a követelményeket 
 
--
+Mind a felhasználó, mind az admin képes a követelménylistán szereplő elemekhez hozzáférni, manipulálni azokat. Az admin fő célja ezeket tesztelés során kezelni, és a projektünk esetében fontos, hogy ugyanolyan képet kapjon a játékról, mint amilyen a felhasználó elé kerül. Ennek indoka, hogy a tesztelés során kiszűrjük a lehetséges fejlesztői hibákat, és megbizonyosodjunk, hogy ezek élettani hatása nem negatív.
 
 ## Képernyő tervek
 
@@ -64,9 +64,15 @@ Bootstrap - A Bootstrap egy nyílt forráskódú, előre elkészített webfejles
 
 ## Pozitív felhasználói élmény biztosítása
 - Felhasználóbarát GUI:
+
       - A grafika felhasználói felületnek könnyen használhatónak kell lennie
+  
       - Egyértelműség: a GUI-nak egyértelműnek kell lennie a félreértés elkerülése érdekében
+  
       - Ergonómikus kialakítás: a felhasználói felületnek olvashatónak, könnyen átláthatónak kell lennie felhasználói eszköztől függetlenül
-  - Reszponzív, mobil kialakítás:
+  
+- Reszponzív, mobil kialakítás:
+    
       - Fontos, hogy okostelefonokon, tableteken kényelmesen és jól használhatóan jelenjen meg a weboldal
+        
       - Gyors letöltődési sebesség
