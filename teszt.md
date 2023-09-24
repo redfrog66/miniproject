@@ -72,7 +72,7 @@ Egyéb elemek:
 ### Eredmények
 | Processzor | RAM  | Életkor | Állapot  |  Előfordult hiba  |
 |------------|------|---------|----------|----|
-| AMD Ryzen 7   | 16GB | 2 év    | Kiváló    |  Teszt  |
+| AMD Ryzen 7   | 16GB | 2 év    | Kiváló    |  Nem  |
 | AMD Ryzen 5  | 8GB  | 3 év    | Elégséges  |    |
 | AMD Ryzen 5   | 8GB | 1 év    | Kiváló    |    |
 |  Intel Core i5  | 8GB  | 6 év    | Kielégítő  |    |
@@ -108,7 +108,7 @@ Gyorsan működő program az elvárásunk, ezért fontos, hogy ellenőrizzük a 
 
 | Processzor | RAM  | Életkor | Állapot  |  Sebesség  |
 |------------|------|---------|----------|----|
-| AMD Ryzen 7   | 16GB | 2 év    | Kiváló    |    |
+| AMD Ryzen 7   | 16GB | 2 év    | Kiváló    |  < 1 ms  |
 | AMD Ryzen 5  | 8GB  | 3 év    | Elégséges  |    |
 
 ### Konklúzió
@@ -133,7 +133,7 @@ A tesztek hibára futottak a következő böngészőkben:
 | AMD Ryzen 5   | 8GB | 1 év    | Kiváló    |   |    |    |
 |  Intel Core i5  | 8GB  | 6 év    | Kielégítő  |   |    |    |
 |  AMD Ryzen 5  | 31GB  | <1 év    | Kiváló  |   |    |    |
-| AMD Ryzen 7   | 16GB | 2 év    | Kiváló    |   |    |    |
+| AMD Ryzen 7   | 16GB | 2 év    | Kiváló    |   |  Nem  |   Nem |
 | AMD Ryzen 5  | 8GB  | 3 év    | Elégséges  |   |    |    |
 
 ### Konklúzió
