@@ -47,7 +47,7 @@ if (currentTheme) {
 
 function setName() {
     
-    let name = prompt("Add meg a neved:", "Név");
+    let name = document.getElementById("nameInput").value;
     if (name == null || name == "") {
         name="Noname";
         localStorage.setItem("localName", name);
