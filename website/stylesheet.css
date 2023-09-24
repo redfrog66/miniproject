@@ -1,9 +1,25 @@
+:root {
+  --title: #50808eff;
+  --title-shadow: #275E6F;
+  --container: #DDD8C4;
+  --guess: #C2D5C5;
+  --background-image: url( 'background.svg' );
+}
+
+[data-theme="dark"] {
+  --title: #DDD8C4;
+  --title-shadow: #275E6F;
+  --container: #50808E ;
+  --guess: #52726c;
+  --background-image: url( 'dark-theme-background.svg' );
+}
+
 body{
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    background-image: url( 'background.svg' );
+    background-image: var(--background-image);
 }
 
 #title{
@@ -11,10 +27,10 @@ body{
     padding-top: 5vh;
     padding-bottom: 5vh;
     font-size: 10vh;
-    color: #50808E;
+    color: var(--title);
     font-weight: 900;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-shadow: 0.4vh 0.2vw #275E6F;
+    text-shadow: 0.4vh 0.2vw var(--title-shadow);
 }
 
 .centered-element {
@@ -125,7 +141,7 @@ body{
     transform: translate(-50%,-50%);
     top: 50%;
     left: 50%;
-    background-color: #DDD8C4;
+    background-color: var(--container);
     padding: 50px 10px;
     border-radius: 22px;
     display: grid;
@@ -145,7 +161,7 @@ h3{
 }
 
 input[type="text"]{
-    background-color: #C2D5C5;
+    background-color: var(--guess);
     width: 90px;
     font-weight: 600;
     color: #000000;
