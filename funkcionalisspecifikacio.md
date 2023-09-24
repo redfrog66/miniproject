@@ -40,6 +40,21 @@ FELHASZNÁLÓ: A FELHASZNÁLÓ az alkalmazás alapvető funkcióit tudja haszná
 
 Mind a felhasználó, mind az admin képes a követelménylistán szereplő elemekhez hozzáférni, manipulálni azokat. Az admin fő célja ezeket tesztelés során kezelni, és a projektünk esetében fontos, hogy ugyanolyan képet kapjon a játékról, mint amilyen a felhasználó elé kerül. Ennek indoka, hogy a tesztelés során kiszűrjük a lehetséges fejlesztői hibákat, és megbizonyosodjunk, hogy ezek élettani hatása nem negatív.
 
+### Névadás
+A GUI-n lehetőség van felhasználónév megadására, ez billentyűzetről kerül beolvasásra. Jól látható helyen, jól olvasható felirattal működik.
+
+### Nehézségválasztás
+Itt lehetőség van a játék midifikálására, az erre szolgáló gombok segítségével.
+
+### Start, Check, Feladás
+Mindegyik a játék előrehaladását befolyásolja. Hozzájuk jól látható gomb kerül rendelésre, így egyetlen kattintással haladunk.
+
+### Tipp
+Egy mező, amely billentyűről olvas. A játék egyik legfontosabb része, a felhasználó a saját tippjét tudja elhelyezni itt.
+
+### Rangsor
+Az admin/felhasználó meg tudja tekinteni, hogy milyen eredményt ért el. A ranglista lokális, azaz nem látja a listában a másik számítógépen egyidőben lejátszott játék eredményét.
+
 ## Képernyő tervek
 
 Külön dokumentumban mellékelve. 
@@ -50,7 +65,32 @@ Az első szereplő maga a futó alkalmazás. Megjelenik a rublika, amit a játé
 
 ## Funkció - követelmény megfeleltetés 
 
--
+### Névadás
+Billentyűzetről beolvasásra kerül egy felhasználónév. Ennek hosszát ellenőrizni tudja egy függvény, illetve a ranglista megjelenítésénél előhívható.
+
+### Nehézségválasztás
+Lehetőséget ad különböző szintek létrehozására. A kezdőlapon választott gombnak megfelelően a szükséges randomszám-generátor fog lefutni.
+
+### Név-rangsorba
+A bekért felhasználónév bekerül a rangsorba.
+
+### Start
+Egy olyan gomb, amely át tud irányítani a játékfelületre.
+
+### Tipp
+Egy mező, amely billentyűzetről olvas. A befogadott érték átadódik egy azt ellenőrző függvénynek, amely tájékoztatni tudja a játékost, hogy milyen közel van a tippelendő értékhez.
+
+### Check
+A Tipp mezőn befogadott értéket tudja leellenőrizni, majd tájékoztatni a játékost. Előnye, hogy indecizív játékosaink több időt kapnak átgondolni a tippjeiket, az általuk beírt érték nem kerül kiértékelésre, amíg ez a gomb nem érzékel kattintást.
+
+### Feladás
+Olyan gomb, amely ha kattintást érzékel, megállítja az értékbekérést, befejezettnek tekinti a játékot. Lehetőséget biztosít a játék idő előtti befejezésére.
+
+### Rangsor
+Egy olyan felület, amely visszaadja a játékos becenevét és a lépéseinek számát. 
+
+### Új játék
+Egy olyan gomb, amelynek segítségével új játékot kezdhetünk.
 
 ## Fogalomszótár
 
