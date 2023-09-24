@@ -12,9 +12,9 @@
 ## Vágyálom rendszer leírása
 
   Kezdetben a játékos megadhat magának egy becenevet, ami majd a ranglistában való tároláshoz szükséges. A program a nehézség kiválasztása és a start gomb megnyomása után generál egy random számot a kiválasztott nehézség alapján lévő számtartományban. A játékos feladata, hogy kitalálja ezt a számot. A felugró ablakba beírhatja a tippelt számot, majd a program válaszként megadja, hogy a kisebb, vagy nagyobb-e, mint a kitalálandó szám. A program specifikusabb választ is képes megadni, például kicsit kisebb a szám, vagy sokkal nagyobb a szám. A játékos rendelkezésére áll több tippelési lehetőség is. A játék végkimenetele kétféle lehet, van egy feladom opció, ami kiírja a megfejtendő számot, vagy ha a játékos helyesen tippel, akkor felugrik egy győztes ablak, ami kiírja, hogy hány lépésben tudta az illető kitalálni a számot. Ezt követően a játékos lépésszáma a megadott becenévvel együtt tárolódik a ranglistában, amit szintén megtekinthetnek a felhasználók. Opció új játék kezdése, vagy visszalépés a főoldalra, ahol új becenév adható meg játékos változás esetén.
-  
-  A program fejlesztésére java nyelvet választottunk, ami elősegíti a könnyű mozgatást akár több platform között is. 
-(Fruzsi)
+  (Fruzsi)
+  A program fejlesztésére JavaScript nyelvet választottunk, ami elősegíti a könnyű mozgatást akár több platform között is. A Bootstrap segít a fejlesztőknek gyorsabban és egyszerűbben létrehozni konzisztens, esztétikus és funkcionális webes felületeket.
+
 
 ## A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása
 
@@ -68,10 +68,13 @@ A játékos a kezdőlapon szeretné megadni a becenevét, majd kiválasztani egy
 (Ákos)
 
 ## Fogalomszótár
-  Java  -  Java egy erősen típusos, objektumorientált programozási nyelv. A Java alkalmazások platformfüggetlenek, mivel a Java bytecode virtuális gépen (JVM) futnak, így bármilyen platformon futtathatók. Az erős közösségi támogatás és a széles körben elterjedt használata miatt a Java egy népszerű választás vállalati és webalkalmazások fejlesztéséhez.
-  
-  Javafx  -  JavaFX egy Java platformon futó modern grafikus felhasználói felület (GUI) keretrendszer. Ez lehetővé teszi a fejlesztők számára, hogy könnyedén építsenek interaktív és esztétikus felhasználói felületeket Java alkalmazásaikhoz.
-(Ákos)
+  JavaScript - A JavaScript egy szkriptnyelv, amit webfejlesztésre használnak. Dinamikus típusú és eseményvezérelt, lehetővé teszi az interaktív weboldalak készítését. A böngészőkben fut, és képes a DOM manipulálására, valamint aszinkron műveletek kezelésére is.
+
+HTML - Az HTML (HyperText Markup Language) egy szövegalapú kódolási nyelv, amit a weboldalak struktúrájának és tartalmának leírására használnak. Az HTML elemei segítségével lehetőség van címsorok, szövegek, képek, linkek, táblázatok, űrlapok és más tartalmi elemek megjelenítésére a weboldalon. A böngészők HTML kódot értelmeznek és megjelenítik a felhasználóknak, így lehetővé téve a weboldalak böngészését és interakcióját. Az HTML a webfejlesztés alapvető építőköve, és más technológiákkal, például CSS (Cascading Style Sheets) és JavaScripttel együtt használják a modern weboldalak készítéséhez.
+
+CSS - A CSS (Cascading Style Sheets) egy stílusleíró nyelv, amit a weboldalak megjelenítésének formázására és dizájnjának meghatározására használnak.
+
+Bootstrap - A Bootstrap egy nyílt forráskódú, előre elkészített webfejlesztési keretrendszer, amely stílusokat, komponenseket és JavaScript funkciókat kínál a reszponzív és modern weboldalak és webalkalmazások készítéséhez.
 
 ## Pozitív felhasználói élmény biztosítása
 - Felhasználóbarát GUI:
