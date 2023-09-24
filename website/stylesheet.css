@@ -366,4 +366,10 @@ th:not(.button-th) {
   text-align: center;
 }
 
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 50%;
+}
+
  /* scoreboard end */
