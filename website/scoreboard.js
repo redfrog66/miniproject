@@ -13,11 +13,6 @@ function convert() {
 saveResult(jsonData);
 jsonData=JSON.parse(localStorage.getItem('results'));
 
-    
-     
-
-     
-    
     // Get the container element where the table will be inserted
     let container = document.getElementById("container");
     
