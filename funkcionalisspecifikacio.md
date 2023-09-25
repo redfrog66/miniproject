@@ -22,6 +22,19 @@ Van az a pillanata az embernek, amikor nem talál módot arra, hogy elüsse az i
 | Jogosultság | L2  | Rangsor           | 1.0 | Rangsor kijelző                               |
 | Jogosultság | L3  | Új játék          | 1.0 | Új játék indítása                              |
 
+## Fejlesztési Folyamat:
+
+1.) A tervezési és tervezési fázis során a csapat meghatározza az alkalmazás részletes tervezését,
+beleértve a felhasználói felület dizájnját és a játéklogika tervezését.
+
+2.) A fejlesztés során az alkalmazás frontend és backend részei elkészülnek,
+beleértve a felhasználói felületet, a játéklogikát és az adatbázis kezelését.
+
+3.) A tesztelési fázis során az alkalmazást különböző eszközökön és böngészőkön tesztelik,
+és a hibák kijavítása történik.
+
+4.) A kiadási fázisban az alkalmazást élő környezetbe helyezik, és a felhasználók használhatják.
+
 ## Jelenlegi üzleti folyamatok modellje
 
 A projekt célja, hogy olyan időtöltésként szolgáljon, ami nem terheli túl az embert a mai rohanó világban. Minden időtöltési lehetőség, játék, társasjáték nagyon komplikálttá vált az idők során. Az egyébként is rohanó nap közepén csak még nagyobb terhelés 1-1 ilyen fárasztóan komplex dologgal elütni az időt. Ezért van szükség ilyen egyszerű és alacsony figyelmet igénylő 'játékra'.
@@ -91,6 +104,12 @@ Egy olyan felület, amely visszaadja a játékos becenevét és a lépéseinek s
 
 ### Új játék
 Egy olyan gomb, amelynek segítségével új játékot kezdhetünk.
+
+## Teszttervek
+-Manuális felhasználói tesztek a felhasználói felület ellenőrzésére és a játékmenet validálására.
+-Teljesítménytesztek az alkalmazás sebességének és teljesítményének ellenőrzésére.
+-Biztonsági tesztek a felhasználói adatok védelmének biztosítására.
+Bővebben: rendszerterv.md
 
 ## Fogalomszótár
 
