@@ -108,6 +108,8 @@ Egy olyan gomb, amelynek segítségével új játékot kezdhetünk.
 ## Teszttervek
 -Manuális felhasználói tesztek a felhasználói felület ellenőrzésére és a játékmenet validálására.
 -Teljesítménytesztek az alkalmazás sebességének és teljesítményének ellenőrzésére.
+-Biztonsági tesztek a felhasználói adatok védelmének biztosítására.
+Bővebben: rendszerterv.md
 
 ## Fogalomszótár
 
