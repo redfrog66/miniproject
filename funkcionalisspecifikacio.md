@@ -105,6 +105,10 @@ Egy olyan felület, amely visszaadja a játékos becenevét és a lépéseinek s
 ### Új játék
 Egy olyan gomb, amelynek segítségével új játékot kezdhetünk.
 
+## Teszttervek
+-Manuális felhasználói tesztek a felhasználói felület ellenőrzésére és a játékmenet validálására.
+-Teljesítménytesztek az alkalmazás sebességének és teljesítményének ellenőrzésére.
+
 ## Fogalomszótár
 
 JavaScript - A JavaScript egy szkriptnyelv, amit webfejlesztésre használnak. Dinamikus típusú és eseményvezérelt, lehetővé teszi az interaktív weboldalak készítését. A böngészőkben fut, és képes a DOM manipulálására, valamint aszinkron műveletek kezelésére is.
